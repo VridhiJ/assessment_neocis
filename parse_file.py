@@ -1,4 +1,4 @@
-def parse_file(path):
+def read_file(path):
     with open(path) as file:
         lines = file.readlines()
 
