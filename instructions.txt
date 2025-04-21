@@ -37,7 +37,7 @@ Files Included
 - face.py
 - geometry_utils.py
 - object.txt (sample input)
-- README.md
 - instructions.txt
+- README.md
 
 Let me know if any issues come up during execution.
