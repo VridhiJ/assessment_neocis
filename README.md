@@ -1,6 +1,6 @@
 # 3D Objects Viewer
 
-This is a basic 3D viewer written in Python using only 2D graphics (`tkinter`). It reads a 3D object from a `.txt` file, renders it as a wireframe, and can also display shaded faces based on their orientation to the camera.
+This is a basic 3D viewer written in Python using only 2D graphics (`tkinter`). It reads a 3D object from a `.txt` file, renders it as a wireframe, and can also display shaded faces based on their orientation.
 
 ## Features
 - Rotatable 3D model using mouse drag
