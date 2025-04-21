@@ -8,5 +8,24 @@ This is a basic 3D viewer written in Python using only 2D graphics (`tkinter`). 
 - Part 2: Shaded triangle faces with lighting effect
 - Toggle between modes with a button
 
-## File Format 
-`object.txt`
+## File Format (`object.txt`)
+```
+6,8                      # Number of vertices, number of faces
+1,1.0,0.0,0.0            # Vertex ID, x, y, z
+...
+1,2,3                   # Face defined by 3 vertex IDs
+...
+```
+
+## How to Run
+
+```bash
+python3 main.py
+```
+
+Make sure `object.txt` is in the same folder as `main.py`.
+
+##  Requirements
+- Python 3.7+
+- `tkinter`
+- `numpy`
