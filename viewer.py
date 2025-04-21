@@ -2,8 +2,8 @@ import tkinter as tk
 import math
 import numpy as np
 
-class WireframeViewer:
-    def __init__(self, object3d, width=800, height=800):
+class Viewer3D:
+    def __init__(self, object3d, width=700, height=700):
         self.mode = "part1"
         self.object = object3d
         self.width = width
